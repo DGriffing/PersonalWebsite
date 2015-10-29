@@ -2,7 +2,7 @@
 
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
 body {
@@ -10,14 +10,50 @@ body {
 	font-size: 16px;
 	font-weight: 300;
 	background-color: #E9EAEE;
+	font-style: normal;
 }
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
 }
-
 h2 {
 	color: #006E25;
+}
+div {
+	padding: 20px;
+	display: block;
+}
+i {
+	font-size: 15px;
+	font-style: italic;
+}
+em {
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+figure {
+    display: none;
+    margin: 10px;
+}
+img {
+	vertical-align: top;
+	max-height: 300px;
+	margin-left: 1em;
+	border-radius: 5px;
+}
+figure figcaption {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+.picLeft {
+	float: left;
+}
+.picRight {
+	float: right;
 }
 
 
@@ -47,11 +83,14 @@ nav a:hover {
 }
 
 
-#Contact{
+#About, #Contact{
 	background-color: #dbdce3;
 	width: 100%;
 	padding-top: 1em; 
 }
+
+
+
 
 
 footer {
@@ -65,6 +104,8 @@ footer {
 }
 
 
+
+
 @media screen and (min-width: 768px){
 
 	body {
@@ -76,6 +117,16 @@ footer {
 	}
 	p {
 		text-align: center;
+	}
+	i {
+		font-size: 18px;
+	}
+	em {
+		font-size: 20px;
+	}
+
+	figure {
+		display: inline-block;
 	}
 
 
