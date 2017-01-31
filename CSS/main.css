@@ -11,6 +11,7 @@ body {
 	font-weight: 300;
 	background-color: #E9EAEE;
 	font-style: normal;
+	text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
@@ -83,7 +84,7 @@ nav a:hover {
 }
 
 
-#bio, #Contact{
+#bio, #education{
 	background-color: #dbdce3;
 	width: 100%;
 	padding-top: 1em; 
@@ -110,13 +111,14 @@ footer {
 
 	body {
 		font-size: 20px;
+		text-align: left;
 	}
 	h2 {
-		text-align: center;
+		text-align: left;
 		margin-bottom: 20px;
 	}
 	p {
-		text-align: center;
+		text-align: left;
 	}
 	i {
 		font-size: 18px;
