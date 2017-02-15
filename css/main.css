@@ -150,7 +150,7 @@ footer {
 
 
 	#Header {
-		background-image: url("../IMG/green-sm.jpg");
+		background-image: url("../img/green-sm.jpg");
 		background-repeat: no-repeat;
 		min-height: 300px;
 		color: white;
@@ -164,7 +164,7 @@ footer {
 
 @media screen and (min-width: 992px){
 	#Header {
-		background-image: url("../IMG/green-md.jpg");
+		background-image: url("../img/green-md.jpg");
 	}
 	#Header h1 {
 		font-size: 4em;
@@ -173,7 +173,7 @@ footer {
 
 @media screen and (min-width: 1200px){
 	#Header {
-		background-image: url("../IMG/green-lg.jpg");
+		background-image: url("../img/green-lg.jpg");
 	}
 }
 
